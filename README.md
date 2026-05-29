@@ -23,19 +23,7 @@ An AI-powered student onboarding assistant built entirely on Microsoft 365 — n
 
 ## Architecture Overview
 
-```
-SharePoint (Knowledge Base — 4 pages + 2 lists)
-        ↓
-Copilot Studio (AI Bot — 4 topics + generative answers)
-        ↓
-Microsoft Teams (Student-facing deployment channel)
-        +
-Power Apps (Admin portal — tool registry CRUD)
-        +
-Power BI (Analytics dashboard — adoption metrics)
-        +
-Power Automate (Escalation logging flow)
-```
+![CampusAI Navigator Architecture](assets/architecture.png)
 
 | Component | Tool | Purpose |
 |---|---|---|
